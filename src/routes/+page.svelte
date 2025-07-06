@@ -1,4 +1,6 @@
 <script>
+	import MetaTag from '$lib/components/chores/MetaTag.svelte';
+
 	export let data;
 
 	console.log(data);
@@ -11,10 +13,7 @@
 </ul> -->
 
 <svelte:head>
-	<title>SvelteKit</title>
-	<meta name="description" content="SvelteKit" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="icon" href="/favicon.svg" />
+	<MetaTag />
 </svelte:head>
 
 <div class="flex flex-col gap-4">
