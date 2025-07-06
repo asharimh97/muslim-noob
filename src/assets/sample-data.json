@@ -1,0 +1,17 @@
+{
+  "name": "Sample Data",
+  "version": "1.0.0",
+  "description": "This is a sample JSON file to demonstrate the $assets alias",
+  "data": [
+    {
+      "id": 1,
+      "title": "Sample Item 1",
+      "description": "This is the first sample item"
+    },
+    {
+      "id": 2,
+      "title": "Sample Item 2", 
+      "description": "This is the second sample item"
+    }
+  ]
+} 

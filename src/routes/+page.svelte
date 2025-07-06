@@ -1,3 +1,15 @@
+<script>
+	export let data;
+
+	console.log(data);
+</script>
+
+<!-- <ul>
+	{#each data.countries as country}
+		<li>{country.name}</li>
+	{/each}
+</ul> -->
+
 <svelte:head>
 	<title>SvelteKit</title>
 	<meta name="description" content="SvelteKit" />
