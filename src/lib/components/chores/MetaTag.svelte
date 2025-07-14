@@ -18,19 +18,18 @@
 
 <title>{title}</title>
 <meta name="description" content={description} />
-<link rel="icon" href={`${imageUrl}/favicon.ico`} />
 
 <!-- Open Graph -->
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:url" content={url} />
-<meta property="og:image" content={`${imageUrl}/favicon.ico`} />
+<meta property="og:image" content={`${imageUrl}/meta-image.png`} />
 
 <!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content={title} />
 <meta name="twitter:description" content={description} />
-<meta name="twitter:image" content={`${imageUrl}/favicon.ico`} />
+<meta name="twitter:image" content={`${imageUrl}/meta-image.png`} />
 <meta name="twitter:url" content={url} />
 
 <!-- Favicon and App Icons -->
