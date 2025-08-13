@@ -19,11 +19,13 @@
 	});
 </script>
 
-<MetaTag
-	title="Daftar Surah Al-Qur'an"
-	description="List of all surahs in the Quran with search and details."
-	url="/surah"
-/>
+<svelte:head>
+	<MetaTag
+		title="Daftar Surah Al-Qur'an"
+		description="List of all surahs in the Quran with search and details."
+		url="/surah"
+	/>
+</svelte:head>
 
 <Container>
 	<h1 class="mb-4 text-center text-2xl font-bold">Daftar Surah</h1>
