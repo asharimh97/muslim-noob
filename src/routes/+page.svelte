@@ -4,8 +4,6 @@
 	import Container from '$lib/components/ui/Container.svelte';
 
 	export let data;
-
-	console.log(data);
 </script>
 
 <!-- <ul>

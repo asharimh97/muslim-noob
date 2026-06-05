@@ -5,7 +5,7 @@
 	// You can also use $lib approach (traditional)
 	// import sampleData from '$lib/data/sample-data.json';
 
-	console.log('Sample data loaded:', sampleData);
+	// console.log('Sample data loaded:', sampleData);
 </script>
 
 <svelte:head>
